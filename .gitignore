@@ -27,3 +27,7 @@ Temporary Items
 ### chef-solo ###
 
 /cookbooks/
+
+### vagrant ###
+
+.vagrant
