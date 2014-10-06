@@ -1,0 +1,6 @@
+source "https://api.berkshelf.com"
+
+cookbook 'yum'
+cookbook 'git'
+cookbook 'simple_iptables', git: 'git://github.com/dcrosta/cookbook-simple-iptables.git'
+cookbook 'rbenv', ">= 1.4.1" , git: 'git://github.com/RiotGames/rbenv-cookbook.git'
