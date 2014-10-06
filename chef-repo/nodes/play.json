@@ -4,5 +4,6 @@
 	"recipe[simple_iptables]",
 	"recipe[my_iptables]",
 	"recipe[rbenv]",
-	"recipe[rails]"
+	"recipe[rails]",
+    "recipe[phantomjs::default]"
 ]}

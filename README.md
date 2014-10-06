@@ -18,3 +18,15 @@ $ knife solo prepare play
 $ knife solo cook play
 調理完了
 ```
+
+# サードパーティのcookbookを更新する
+
+Berksfileに追記
+```
+cookbook 'phantomjs', '~> 1.0.3'
+```
+
+コマンド実行
+```
+$ berks install
+```
